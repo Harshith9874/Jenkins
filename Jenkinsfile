@@ -12,5 +12,10 @@ pipeline{
             }
 
         }
+        stage("third"){
+            steps{
+                echo "my first change in Git for jenkins learning"
+            }
+        }
     }
 }
